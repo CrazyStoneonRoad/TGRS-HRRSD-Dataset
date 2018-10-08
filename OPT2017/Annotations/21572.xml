@@ -1,0 +1,164 @@
+<annotation>
+	<folder>OPTIMAL_Z</folder>
+	<filename>21572.jpg</filename>
+	<source>
+		<database>The OPTIMAL_Z Database</database>
+		<annotation>OPTIMAL_Z_anno</annotation>
+		<image>OPTIMAL_Z_img</image>
+		<flickrid>NULL</flickrid>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>snail_crowling</name>
+	</owner>
+	<size>
+		<width>3152</width>
+		<height>3504</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ground track field</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2671</xmin>
+			<ymin>283</ymin>
+			<xmax>2932</xmax>
+			<ymax>907</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2735</xmin>
+			<ymin>666</ymin>
+			<xmax>2864</xmax>
+			<ymax>740</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2735</xmin>
+			<ymin>593</ymin>
+			<xmax>2864</xmax>
+			<ymax>664</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2735</xmin>
+			<ymin>519</ymin>
+			<xmax>2865</xmax>
+			<ymax>589</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2731</xmin>
+			<ymin>439</ymin>
+			<xmax>2862</xmax>
+			<ymax>516</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ground track field</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1443</xmin>
+			<ymin>1650</ymin>
+			<xmax>2022</xmax>
+			<ymax>1926</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1531</xmin>
+			<ymin>1719</ymin>
+			<xmax>1612</xmax>
+			<ymax>1862</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1885</xmin>
+			<ymin>1722</ymin>
+			<xmax>1969</xmax>
+			<ymax>1873</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ground track field</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>256</xmin>
+			<ymin>2672</ymin>
+			<xmax>570</xmax>
+			<ymax>3174</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>334</xmin>
+			<ymin>2949</ymin>
+			<xmax>476</xmax>
+			<ymax>3026</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>345</xmin>
+			<ymin>2871</ymin>
+			<xmax>487</xmax>
+			<ymax>2946</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>351</xmin>
+			<ymin>2796</ymin>
+			<xmax>486</xmax>
+			<ymax>2867</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,68 @@
+<annotation>
+	<folder>OPTIMAL_Z</folder>
+	<filename>00871.jpg</filename>
+	<source>
+		<database>The OPTIMAL_Z Database</database>
+		<annotation>OPTIMAL_Z_anno</annotation>
+		<image>OPTIMAL_Z_img</image>
+		<flickrid>NULL</flickrid>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>snail_crowling</name>
+	</owner>
+	<size>
+		<width>720</width>
+		<height>925</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>storage tank</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>471</xmin>
+			<ymin>114</ymin>
+			<xmax>658</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>storage tank</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>384</xmin>
+			<ymin>427</ymin>
+			<xmax>576</xmax>
+			<ymax>607</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>storage tank</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>100</xmin>
+			<ymin>346</ymin>
+			<xmax>285</xmax>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>storage tank</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>172</xmin>
+			<ymin>652</ymin>
+			<xmax>364</xmax>
+			<ymax>831</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,128 @@
+<annotation>
+	<folder>OPTIMAL_Z</folder>
+	<filename>06417.jpg</filename>
+	<source>
+		<database>The OPTIMAL_Z Database</database>
+		<annotation>OPTIMAL_Z_anno</annotation>
+		<image>OPTIMAL_Z_img</image>
+		<flickrid>NULL</flickrid>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>snail_crowling</name>
+	</owner>
+	<size>
+		<width>891</width>
+		<height>605</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>307</xmin>
+			<ymin>91</ymin>
+			<xmax>358</xmax>
+			<ymax>162</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>370</xmin>
+			<ymin>96</ymin>
+			<xmax>425</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>433</xmin>
+			<ymin>93</ymin>
+			<xmax>481</xmax>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>378</xmin>
+			<ymin>197</ymin>
+			<xmax>431</xmax>
+			<ymax>278</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>451</xmin>
+			<ymin>198</ymin>
+			<xmax>497</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>515</xmin>
+			<ymin>202</ymin>
+			<xmax>569</xmax>
+			<ymax>285</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>463</xmin>
+			<ymin>312</ymin>
+			<xmax>519</xmax>
+			<ymax>405</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>536</xmin>
+			<ymin>320</ymin>
+			<xmax>589</xmax>
+			<ymax>411</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tennis court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>607</xmin>
+			<ymin>323</ymin>
+			<xmax>662</xmax>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+</annotation>

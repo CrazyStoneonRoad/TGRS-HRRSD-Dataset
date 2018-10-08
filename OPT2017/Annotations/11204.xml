@@ -1,0 +1,56 @@
+<annotation>
+	<folder>OPTIMAL_Z</folder>
+	<filename>11204.jpg</filename>
+	<source>
+		<database>The OPTIMAL_Z Database</database>
+		<annotation>OPTIMAL_Z_anno</annotation>
+		<image>OPTIMAL_Z_img</image>
+		<flickrid>NULL</flickrid>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>snail_crowling</name>
+	</owner>
+	<size>
+		<width>536</width>
+		<height>876</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ground track field</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>130</ymin>
+			<xmax>278</xmax>
+			<ymax>468</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>baseball diamond</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>210</xmin>
+			<ymin>482</ymin>
+			<xmax>304</xmax>
+			<ymax>602</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>baseball diamond</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>310</xmin>
+			<ymin>709</ymin>
+			<xmax>391</xmax>
+			<ymax>798</ymax>
+		</bndbox>
+	</object>
+</annotation>

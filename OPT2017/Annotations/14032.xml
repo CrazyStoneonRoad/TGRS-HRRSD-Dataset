@@ -1,0 +1,104 @@
+<annotation>
+	<folder>OPTIMAL_Z</folder>
+	<filename>14032.jpg</filename>
+	<source>
+		<database>The OPTIMAL_Z Database</database>
+		<annotation>OPTIMAL_Z_anno</annotation>
+		<image>OPTIMAL_Z_img</image>
+		<flickrid>NULL</flickrid>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>snail_crowling</name>
+	</owner>
+	<size>
+		<width>3168</width>
+		<height>2544</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ground track field</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>774</xmin>
+			<ymin>1758</ymin>
+			<xmax>1410</xmax>
+			<ymax>2458</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1671</xmin>
+			<ymin>2029</ymin>
+			<xmax>1777</xmax>
+			<ymax>2155</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1595</xmin>
+			<ymin>1905</ymin>
+			<xmax>1695</xmax>
+			<ymax>2031</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1613</xmin>
+			<ymin>2077</ymin>
+			<xmax>1705</xmax>
+			<ymax>2185</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1537</xmin>
+			<ymin>1945</ymin>
+			<xmax>1641</xmax>
+			<ymax>2073</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1541</xmin>
+			<ymin>2113</ymin>
+			<xmax>1635</xmax>
+			<ymax>2243</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>basketball court</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1461</xmin>
+			<ymin>1991</ymin>
+			<xmax>1567</xmax>
+			<ymax>2113</ymax>
+		</bndbox>
+	</object>
+</annotation>

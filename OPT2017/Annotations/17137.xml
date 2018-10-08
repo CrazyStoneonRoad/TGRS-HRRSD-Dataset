@@ -1,0 +1,56 @@
+<annotation>
+	<folder>OPTIMAL_Z</folder>
+	<filename>17137.jpg</filename>
+	<source>
+		<database>The OPTIMAL_Z Database</database>
+		<annotation>OPTIMAL_Z_anno</annotation>
+		<image>OPTIMAL_Z_img</image>
+		<flickrid>NULL</flickrid>
+	</source>
+	<owner>
+		<flickrid>NULL</flickrid>
+		<name>snail_crowling</name>
+	</owner>
+	<size>
+		<width>1504</width>
+		<height>3328</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bridge</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>439</xmin>
+			<ymin>323</ymin>
+			<xmax>890</xmax>
+			<ymax>2841</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>baseball diamond</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>908</xmin>
+			<ymin>31</ymin>
+			<xmax>1442</xmax>
+			<ymax>668</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>baseball diamond</name>
+		<pose>overlook</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>878</xmin>
+			<ymin>1154</ymin>
+			<xmax>1283</xmax>
+			<ymax>1719</ymax>
+		</bndbox>
+	</object>
+</annotation>
