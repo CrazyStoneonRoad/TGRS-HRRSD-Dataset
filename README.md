@@ -1,4 +1,4 @@
-TGRS-HRRSD-Dataset
+TGRS-HRRSD-Dataset: High Resolution Remote Sensing Detection
 =====================
 This is the object detection dataset proposed in my recent work 
 
@@ -9,4 +9,4 @@ This dataset contains 21761 images with different sizes and about 4k objects for
 
 # Citing HRRSD
 If you find HRRSD dataset useful in your research, please consider citing:
-> HRCNN: Hierarchical and Robust Convolutional Neural Network for Very High Resolution Remote Sensing Object Detection
+> Hierarchical and Robust Convolutional Neural Network for Very High Resolution Remote Sensing Object Detection
