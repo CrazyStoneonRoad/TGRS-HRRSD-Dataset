@@ -12,7 +12,7 @@ If you find HRRSD dataset useful in your research, please consider citing:
 
 Hierarchical and Robust Convolutional Neural Network for Very High Resolution Remote Sensing Object Detection
 
-'''
+```
 @article{zhang2019hierarchical,
   title={Hierarchical and Robust Convolutional Neural Network for Very High-Resolution Remote Sensing Object Detection},
   author={Zhang, Yuanlin and Yuan, Yuan and Feng, Yachuang and Lu, Xiaoqiang},
@@ -20,4 +20,4 @@ Hierarchical and Robust Convolutional Neural Network for Very High Resolution Re
   year={2019},
   publisher={IEEE}
 }
-'''
+```
