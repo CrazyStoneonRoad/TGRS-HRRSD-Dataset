@@ -10,8 +10,6 @@ This dataset contains 21761 images with different sizes and about 4k objects for
 # Citation
 If you find HRRSD dataset useful in your research, please consider citing:
 
-Hierarchical and Robust Convolutional Neural Network for Very High Resolution Remote Sensing Object Detection
-
 ```
 @article{zhang2019hierarchical,
   title={Hierarchical and Robust Convolutional Neural Network for Very High-Resolution Remote Sensing Object Detection},
