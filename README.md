@@ -1,4 +1,4 @@
-TGRS-HRRSD-Dataset: High Resolution Remote Sensing Detection (HRRSD)
+TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 =====================
 
 The dataset contains 13 categories of RSI objects. It contains 21761 color images acquired from Google Earth with the spatial resolution from 0.15-m to 1.2-m, and 4961 color images acquired from Baidu Map with the spatial resolution from 0.6-m to 1.2-m. Image numbers in each subset are 5401 for ‘train’, 5417 for ‘val’, and 10943 for ‘test’. And ‘train-val’ subset is a merge of ‘train’ and ‘val’.
