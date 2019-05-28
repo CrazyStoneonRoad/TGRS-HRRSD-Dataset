@@ -5,6 +5,7 @@ The dataset contains 13 categories of RSI objects. It contains 21761 color image
 
 
 # Folders
+
 + /OPT2017/Annotations: \*.xml  
 + /OPT2017/labels: \*.txt  
 with the form of (class x y width height)  
@@ -12,9 +13,6 @@ with the form of (class x y width height)
 + /OPT2017/ImageSets/Main: Division of the dataset.  
   
 # Statistics
-
-
-
 
 Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resized Scale Std /pixel
 :-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: 
@@ -32,22 +30,7 @@ Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resiz
 12|   T junction         |1066|1065|2131|2289|4420|198.71|54.88
 13|   parking lot        |241|1237|2478|2480|4958|122.85|54.45
 
-# Numbers of Different Categories
-1	3975  
-2	4651  
-3	4033  
-4	4424  
-5	4064  
-6	4420  
-7	4901  
-8	4042  
-9	3902  
-10	4756  
-11	4436  
-12	4575  
-13	4958  
-
-
+In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are three subsets of the dataset. 'Mean Resized Scale' shows average scale of each category. 'Resized Scale Std' is the standard deviation of category scale.
 
 # Citation
 If you find HRRSD dataset useful in your research, please consider citing:
