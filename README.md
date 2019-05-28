@@ -28,7 +28,7 @@ Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resiz
 10|  vehicle             |1188|1186|2374|2382|4756|41.96|9.99
 11|  crossroad           |903|901|1804|2219|4023|220.54|59.24
 12|   T junction         |1066|1065|2131|2289|4420|198.71|54.88
-13|   parking lot        |241|1237|2478|2480|4958|122.85|54.45
+13|   parking lot        |1241|1237|2478|2480|4958|122.85|54.45
 
 In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are three subsets of the dataset. 'Mean Resized Scale' shows average scale of each category. 'Resized Scale Std' is the standard deviation of category scale.
 
