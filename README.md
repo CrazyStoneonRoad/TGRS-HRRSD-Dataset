@@ -14,39 +14,23 @@ with the form of (class x y width height)
 # Statistics
 
 
-    airplane & 1226 & 1222 & 2448 & 2451 & 4899 \\
-    baseball diamond & 1007 & 1004 & 2011 & 2022 & 4033 \\
-    basketball court & 923 & 920 & 1843 & 2033 & 3876 \\
-    bridge & 1123 & 1121 & 2244 & 2326 & 4570 \\
-    crossroad & 903 & 901 & 1804 & 2219 & 4023 \\
-    ground track field & 859 & 856 & 1717 & 2017 & 3734 \\
-    harbor & 967 & 964 & 1931 & 1953 & 3884 \\
-    parking lot & 1241 & 1237 & 2478 & 2480 & 4958 \\
-    ship & 950 & 948 & 1898 & 1988 & 3886 \\
-    storage tank & 1099 & 1092 & 2191 & 2215 & 4406 \\
-    T junction & 1066 & 1065 & 2131 & 2289 & 4420 \\
-    tennis court & 1043 & 1040 & 2083 & 2212 & 4295 \\
-    vehicle & 1188 & 1186 & 2374 & 2382 & 4756 \\
 
 
-
-
-
-ID | NAME | COUNT_ALL | COUNT_TRAIN | COUNT_VAL | COUNT_TRAINVAL | COUNT_TEST | 
- - |   -  |     -     |     -     |     -     |     -     |     -     |
-1	 | ship                |  3975  1226 1222 2448 2451
-2	 | bridge              |  4651  1007 1004 2011 2022
-3	 | ground track field  |  4033  923 920 1843 2033
-4	 | storage tank        |  4424 
-5	 | basketball court    |  4064
-6	 | tennis court        |  4420
-7	 | airplane            |  4901
-8	 | baseball diamond    |  4042
-9	 | harbor              |  3902
-10 | vehicle             |  4756
-11 | crossroad           |  4436
-12 | T junction          |  4575
-13 | parking lot         |  4958
+Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resized Scale Std /pixel
+:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: 
+1|  ship                |950|948|1898|1988|3886|167.44|110.37
+2|  bridge              |1123|1121|2244|2326|4570|246.10|110.53
+3|  ground track field  |859|856|1717|2017|3734|276.50|100.65
+4|  storage tank        |1099|1092|2191|2215|4406|125.60|68.41
+5|  basketball court    |923|920|1843|2033|3876|108.19|57.46
+6|  tennis court        |1043|1040|2083|2212|4295|102.71|38.80
+7|  airplane            |1226|1222|2448|2451|4899|113.21|67.98
+8|  baseball diamond    |1007|1004|2011|2022|4033|231.61|117.85
+9|  harbor              |967|964|1931|1953|3884|163.96|94.16
+10|  vehicle             |1188|1186|2374|2382|4756|41.96|9.99
+11|  crossroad           |903|901|1804|2219|4023|220.54|59.24
+12|   T junction         |1066|1065|2131|2289|4420|198.71|54.88
+13|   parking lot        |241|1237|2478|2480|4958|122.85|54.45
 
 # Numbers of Different Categories
 1	3975  
