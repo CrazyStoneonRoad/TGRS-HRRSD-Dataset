@@ -5,11 +5,12 @@ The dataset contains 13 categories of RSI objects. It contains 21761 color image
 
 
 # Folders
-
+Labels
 + /OPT2017/Annotations: \*.xml  
-+ /OPT2017/labels: \*.txt  
-with the form of (class x y width height)  
++ /OPT2017/labels: \*.txt  *with the form of (class x y width height)*
+Images
 + /OPT2017/JPEGImages: \*.jpg  
+Dataset Division
 + /OPT2017/ImageSets/Main: Division of the dataset.  
   
 # Statistics
