@@ -41,6 +41,9 @@ If you find HRRSD dataset useful in your research, please consider citing:
   title={Hierarchical and Robust Convolutional Neural Network for Very High-Resolution Remote Sensing Object Detection},
   author={Zhang, Yuanlin and Yuan, Yuan and Feng, Yachuang and Lu, Xiaoqiang},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={57}
+  number={8}
+  pages={5535--5548}
   year={2019},
   publisher={IEEE}
 }
