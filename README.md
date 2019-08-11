@@ -1,7 +1,7 @@
 TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 =====================
 
-## If you find this dataset useful, may you star it before downloading.
+
 
 The dataset contains 13 categories of RSI objects. 
 
