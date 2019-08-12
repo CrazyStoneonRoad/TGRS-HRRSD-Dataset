@@ -39,6 +39,9 @@ Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resiz
 
 In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are three subsets of the dataset. 'Mean Resized Scale' shows average scale of each category. 'Resized Scale Std' is the standard deviation of category scale.
 
+# FAQ
+If any question is met, please contanct me with the e-mail: 1153463027@qq.com.
+
 # Citation
 If you find HRRSD dataset useful in your research, please consider citing:
 
