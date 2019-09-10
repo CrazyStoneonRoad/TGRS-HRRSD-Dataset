@@ -5,7 +5,7 @@ TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 
 - HRRSD contains **21,761 images** acquired from Google Earth and Baidu Map with the spatial resolution from 0.15-m to 1.2-m. 
 
-- There are **55,740** object instances in HRRSD.
+- There are **55,740 object instances** in HRRSD.
 
 - HRRSD contains **13 categories** of RSI objects. 
 
