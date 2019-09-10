@@ -9,7 +9,7 @@ TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 
 - The dataset contains **13 categories** of RSI objects. 
 
-Image numbers in each subset are 5401 for ‘train’, 5417 for ‘val’, and 10943 for ‘test’. And ‘train-val’ subset is a merge of ‘train’ and ‘val’.
+Moreover, this dataset is divided as several subsets, image numbers in each subset are **5401 for ‘train’, 5417 for ‘val’, and 10943 for ‘test’**. And ‘train-val’ subset is a merge of ‘train’ and ‘val’.
 
 
 # Folders
