@@ -1,7 +1,7 @@
 TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 =====================
 
-
+# NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F)
 
 - HRRSD contains **21,761 images** acquired from Google Earth and Baidu Map with the spatial resolution from 0.15-m to 1.2-m. 
 
@@ -43,6 +43,15 @@ In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are thre
 
 # FAQ
 If any question is met, please contanct me with the e-mail: 1153463027@qq.com.
+
+Qestion 1: AP for the "T junction" class is always NAN or 0, why?
+
+Anwser Q1: In some object detection frameworks, there may be a piece of code like "cls_names = lower( cls_names )". 
+This will set class names to lower case, but class names in xml files contain "T junction" where "T" is uppercase. 
+This actually will cause several problems. 
+The solution is using debug sofwares to find the code of changing word cases and correct it. 
+For the dataset, I won't change the "T junction" labels in xmls currently for lacking time. 
+
 
 # Citation
 If you find HRRSD dataset useful in your research, please consider citing:
