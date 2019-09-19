@@ -1,7 +1,7 @@
 TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 =====================
 
-# NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F) and [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr)
+# NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F) and [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr).
 
 - HRRSD contains **21,761 images** acquired from Google Earth and Baidu Map with the spatial resolution from 0.15-m to 1.2-m. 
 
