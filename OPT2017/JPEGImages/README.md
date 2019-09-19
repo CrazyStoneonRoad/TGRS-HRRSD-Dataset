@@ -1,1 +1,1 @@
-# All images are in [the three RARs](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F).
+# All images are in the three RARs from [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F) or [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr).
