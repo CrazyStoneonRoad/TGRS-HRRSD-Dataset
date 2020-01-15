@@ -32,9 +32,14 @@ Contain ground truth labels of ```*.txt``` files.
 
 # avr_std_detection_sets.py
 
-This file is used to calculate average and standard deviation for object detection datasets. These two numbers will be needed for training better models. 
+This file is used to calculate mean value and standard deviation for images in object detection datasets. These two values will be needed for training better models. 
 
-Put this file under root of the datasets, where there is a JPEGImages folder containing images.
+Put this file under root of the datasets, where there is a 'JPEGImages' folder containing images.
 
-If you want to calculate the ```avr``` and ```std``` from N images, run :
-> python avr_std_detection_sets.py N(optional)
+If you want to calculate the ```avr``` and ```std``` from 100 randomly selected images, run :
+```shell
+$ cd your_HRRSD_path/OPT2017
+$ python avr_std_detection_sets.py 100
+```
+
+If you run ```$ python avr_std_detection_sets.py```, 500 images will be randomly selected.
