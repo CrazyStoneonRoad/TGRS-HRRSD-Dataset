@@ -11,6 +11,18 @@ TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 
 Moreover, this dataset is divided as several subsets, image numbers in each subset are **5401 for ‘train’, 5417 for ‘val’, and 10943 for ‘test’**. And ‘train-val’ subset is a merge of ‘train’ and ‘val’.
 
+# Mean and Std
+In most current object detection systems, means and std values of datasets are required. 
+
+You may refer to:
+
+mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375]
+
+Moreover, you can compute the values by yourself with file ```OPT2017/avr_std_detection_sets.py```:
+```shell
+$ cd your_HRRSD_path/OPT2017
+$ python avr_std_detection_sets.py 500
+```
 
 # Folders
 ## Labels
