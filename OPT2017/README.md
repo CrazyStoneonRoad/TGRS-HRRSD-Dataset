@@ -27,7 +27,7 @@ Contain ground truth labels of ```*.txt``` files.
 
 1. In each file, a row represents a proposal, namely a candidate box. 
 
-2. For the columns, the first column represents category and the others represent normalized bounding box ```(x_left, y_bottom, x_right, y_top)```.
+2. For the columns, the first column represents category and the others represent normalized bounding box ```(class, x_center, y_center, width, height)```.
 
 
 # avr_std_detection_sets.py
