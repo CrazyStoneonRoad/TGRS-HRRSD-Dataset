@@ -28,3 +28,13 @@ Contain ground truth labels of ```*.txt``` files.
 1. In each file, a row represents a proposal, namely a candidate box. 
 
 2. For the columns, the first column represents category and the others represent normalized bounding box ```(x_left, y_bottom, x_right, y_top)```.
+
+
+# avr_std_detection_sets.py
+
+This file is used to calculate average and standard deviation for object detection datasets. These two numbers will be needed for training better models. 
+
+Put this file under root of the datasets, where there is a JPEGImages folder containing images.
+
+If you want to calculate the ```avr``` and ```std``` from N images, run :
+> python avr_std_detection_sets.py [N (optional)]
