@@ -68,3 +68,17 @@ If you find HRRSD dataset useful in your research, please consider citing:
   publisher={IEEE}
 }
 ```
+
+For more comparative experimental results, please refer to:
+```
+@article{lu2019gated,
+  title={Gated and Axis-Concentrated Localization Network for Remote Sensing Object Detection},
+  author={Lu, Xiaoqiang and Zhang, Yuanlin and Yuan, Yuan and Feng, Yachuang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={58},
+  number={1},
+  pages={179--192},
+  year={2019},
+  publisher={IEEE}
+}
+```
