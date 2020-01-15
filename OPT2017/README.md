@@ -37,4 +37,4 @@ This file is used to calculate average and standard deviation for object detecti
 Put this file under root of the datasets, where there is a JPEGImages folder containing images.
 
 If you want to calculate the ```avr``` and ```std``` from N images, run :
-> python avr_std_detection_sets.py [N (optional)]
+> python avr_std_detection_sets.py N(optional)
