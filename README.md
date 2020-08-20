@@ -56,7 +56,7 @@ In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are thre
 
 ## Benchmark
 
-Category|YOLO|Fast R-CNN|GACL Fast R-CNN|Faster R-CNN|GACL Faster R-CNN
+Category|YOLO-v2|Fast R-CNN|GACL Fast R-CNN \cite{lu2019gated}|Faster R-CNN|GACL Faster R-CNN \cite{lu2019gated}
 :-: |:-: |:-: |:-: |:-: |:-: 
 Airplane|84.6|83.3|85.1|90.8|90.8
 Baseball Diamond|62.2|83.6|82.6|86.9|87.2
