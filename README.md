@@ -1,7 +1,7 @@
 TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 =====================
 
-# I.NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F), [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr), and an ipv6 site [bt.byr.cn](https://bt.byr.cn/details.php?id=298274&edited=1)
+# I.    NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F), [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr), and an ipv6 site [bt.byr.cn](https://bt.byr.cn/details.php?id=298274&edited=1)
 
 - HRRSD contains **21,761 images** acquired from Google Earth and Baidu Map with the spatial resolution from 0.15-m to 1.2-m. 
 
@@ -11,7 +11,7 @@ TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 
 Moreover, this dataset is divided as several subsets, image numbers in each subset are **5401 for ‘train’, 5417 for ‘val’, and 10943 for ‘test’**. And ‘train-val’ subset is a merge of ‘train’ and ‘val’.
 
-# II.Mean and Std
+# II.   Mean and Std
 In most current object detection systems, means and std values of datasets are required. 
 
 You may refer to:
@@ -24,7 +24,7 @@ $ cd your_HRRSD_path/OPT2017
 $ python avr_std_detection_sets.py 500
 ```
 
-# III.Folders
+# III.  Folders
 ## Labels
 + /OPT2017/Annotations: \*.xml  
 + /OPT2017/labels: \*.txt  *with the form of (class x y width height)*
@@ -73,7 +73,7 @@ Vehicle|65.1|46.1|84
 Mean AP|65.8|66.5|81.5
 
 
-# V.FAQ
+# V.    FAQ
 If any question is met, please contanct me with the e-mail: 1153463027@qq.com.
 
 Qestion 1: AP for the "T junction" class is always NAN or 0, why?
@@ -85,7 +85,7 @@ The solution is using debug sofwares to find the code of changing word cases and
 For the dataset, I won't change the "T junction" labels in xmls currently for lacking time. 
 
 
-# VI.Citation
+# VI.   Citation
 If you find HRRSD dataset useful in your research, please consider citing:
 
 ```
