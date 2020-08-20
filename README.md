@@ -57,6 +57,7 @@ In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are thre
 ## Benchmark
 
 Category|YOLO|Fast R-CNN|Faster R-CNN|
+:-: |:-: |:-: |:-: 
 Airplane|84.6|83.3|90.8
 Baseball Diamond|62.2|83.6|86.9
 Basketball Court|41.3|36.7|47.9
