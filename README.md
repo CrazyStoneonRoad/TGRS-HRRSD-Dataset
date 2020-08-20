@@ -58,20 +58,20 @@ In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are thre
 
 Category /%|YOLO-v2 /%|Fast R-CNN /%|Fast R-CNN + GACL-Net \cite{lu2020gated} /%|Faster R-CNN /%|Faster R-CNN + GACL-Net \cite{lu2020gated} /%
 :-: |:-: |:-: |:-: |:-: |:-: 
-Airplane|84.6|83.3|85.1|90.8|90.8
-Baseball Diamond|62.2|83.6|82.6|86.9|87.2
-Basketball Court|41.3|36.7|42.1|47.9|49.7
-Bridge|79|75.1|76.7|85.5|85.6
-Crossroad|43.4|67.1|68.7|88.6|88.2
-Ground Track Field|94.4|90|89.6|90.6|90.7
-Harbor|74.4|76|78.4|89.4|89.7
-Parking Lot|45.8|37.5|39.5|63.3|65.3
-Ship|78.5|75|74.3|88.5|88.5
-Storage Tank|72.4|79.8|80.4|88.7|89.2
-T Junction|46.8|39.2|38.8|75.1|75
-Tennis Court|67.6|75|77|80.7|80.8
-Vehicle|65.1|46.1|50.7|84|86.9
-Mean AP|65.8|66.5|68|81.5|82.1
+Airplane          |84.6|83.3|85.1|90.8|90.8
+Baseball Diamond  |62.2|83.6|82.6|86.9|87.2
+Basketball Court  |41.3|36.7|42.1|47.9|49.7
+Bridge            |79.0|75.1|76.7|85.5|85.6
+Crossroad         |43.4|67.1|68.7|88.6|88.2
+Ground Track Field|94.4|90.0|89.6|90.6|90.7
+Harbor            |74.4|76.0|78.4|89.4|89.7
+Parking Lot       |45.8|37.5|39.5|63.3|65.3
+Ship              |78.5|75.0|74.3|88.5|88.5
+Storage Tank      |72.4|79.8|80.4|88.7|89.2
+T Junction        |46.8|39.2|38.8|75.1|75.0
+Tennis Court      |67.6|75.0|77.0|80.7|80.8
+Vehicle           |65.1|46.1|50.7|84.0|86.9
+Mean AP           |65.8|66.5|68.0|81.5|82.1
 
 
 
