@@ -56,7 +56,7 @@ In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are thre
 
 ## Benchmark
 
-Category |YOLO-v2 /%|Fast R-CNN /%|Fast R-CNN + GACL-Net /%|Faster R-CNN /%|Faster R-CNN + GACL-Net /%
+Category |YOLO-v2 /%|Fast R-CNN /%|Fast_R-CNN_r50 + GACL-Net /%|Faster R-CNN /%|Faster_R-CNN_r50 + GACL-Net /%
 :-:               |:-: |:-: |:-: |:-: |:-: 
 Airplane          |84.6|83.3|85.1|90.8|90.8
 Baseball Diamond  |62.2|83.6|82.6|86.9|87.2
@@ -73,7 +73,7 @@ Tennis Court      |67.6|75.0|77.0|80.7|80.8
 Vehicle           |65.1|46.1|50.7|84.0|86.9
 Mean AP           |65.8|66.5|68.0|81.5|82.1
 
-GACL-Net \cite{lu2020gated} is a method proposed to improve object localization performance. Title of this paper is "Gated and Axis-Concentrated Localization Network for Remote Sensing Object Detection".
+GACL-Net \cite{lu2020gated} is a method proposed to improve object localization performance. Title of this paper is "Gated and Axis-Concentrated Localization Network for Remote Sensing Object Detection". The suffix "r50" denotes using 50 layer Resnet. 
 
 # V.    FAQ
 If any question is met, please contanct me with the e-mail: 1153463027@qq.com.
