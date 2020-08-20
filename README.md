@@ -1,7 +1,7 @@
 TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 =====================
 
-# NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F), [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr), and an ipv6 site [bt.byr.cn](https://bt.byr.cn/details.php?id=298274&edited=1)
+# I.NOTE: JPEG files are available on [BaiduCloud](https://pan.baidu.com/s/1ainmXaL_Mu5XASk3ydhqKA#list/path=%2F&parentPath=%2F), [GoogleDrive](https://drive.google.com/open?id=1bffECWdpa0jg2Jnm7V0oCyFFh0N-EIkr), and an ipv6 site [bt.byr.cn](https://bt.byr.cn/details.php?id=298274&edited=1)
 
 - HRRSD contains **21,761 images** acquired from Google Earth and Baidu Map with the spatial resolution from 0.15-m to 1.2-m. 
 
@@ -11,7 +11,7 @@ TGRS-HRRSD-Dataset: *High Resolution Remote Sensing Detection* (HRRSD)
 
 Moreover, this dataset is divided as several subsets, image numbers in each subset are **5401 for ‘train’, 5417 for ‘val’, and 10943 for ‘test’**. And ‘train-val’ subset is a merge of ‘train’ and ‘val’.
 
-# Mean and Std
+# II.Mean and Std
 In most current object detection systems, means and std values of datasets are required. 
 
 You may refer to:
@@ -24,7 +24,7 @@ $ cd your_HRRSD_path/OPT2017
 $ python avr_std_detection_sets.py 500
 ```
 
-# Folders
+# III.Folders
 ## Labels
 + /OPT2017/Annotations: \*.xml  
 + /OPT2017/labels: \*.txt  *with the form of (class x y width height)*
@@ -33,7 +33,8 @@ $ python avr_std_detection_sets.py 500
 ## Dataset Division
 + /OPT2017/ImageSets/Main: Division of the dataset.  
   
-# Statistics
+# IV.Statistics and Benchmark
+## Statistics
 
 Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resized Scale Std /pixel
 :-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: |:-: 
@@ -53,7 +54,26 @@ Label|Name|N_Train|N_Val|N_Trainval|N_Test|N_All|Mean Resized Scale /pixel|Resiz
 
 In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are three subsets of the dataset. 'Mean Resized Scale' shows average scale of each category. 'Resized Scale Std' is the standard deviation of category scale.
 
-# FAQ
+## Benchmark
+
+Category|YOLO|Fast R-CNN|Faster R-CNN|
+Airplane|84.6|83.3|90.8
+Baseball Diamond|62.2|83.6|86.9
+Basketball Court|41.3|36.7|47.9
+Bridge|79|75.1|85.5
+Crossroad|43.4|67.1|88.6
+Ground Track Field|94.4|90|90.6
+Harbor|74.4|76|89.4
+Parking Lot|45.8|37.5|63.3
+Ship|78.5|75|88.5
+Storage Tank|72.4|79.8|88.7
+T Junction|46.8|39.2|75.1
+Tennis Court|67.6|75|80.7
+Vehicle|65.1|46.1|84
+Mean AP|65.8|66.5|81.5
+
+
+# V.FAQ
 If any question is met, please contanct me with the e-mail: 1153463027@qq.com.
 
 Qestion 1: AP for the "T junction" class is always NAN or 0, why?
@@ -65,7 +85,7 @@ The solution is using debug sofwares to find the code of changing word cases and
 For the dataset, I won't change the "T junction" labels in xmls currently for lacking time. 
 
 
-# Citation
+# VI.Citation
 If you find HRRSD dataset useful in your research, please consider citing:
 
 ```
