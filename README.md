@@ -56,7 +56,7 @@ In this table, N_* refers to numbers of objects. 'Train', 'Val', 'Test' are thre
 
 ## Benchmark
 
-Category|YOLO-v2|Fast R-CNN|GACL Fast R-CNN \cite{lu2019gated}|Faster R-CNN|GACL Faster R-CNN \cite{lu2019gated}
+Category|YOLO-v2|Fast R-CNN|FastR-CNN + GACL-Net \cite{lu2020gated}|Faster R-CNN|Faster R-CNN + GACL-Net \cite{lu2020gated}
 :-: |:-: |:-: |:-: |:-: |:-: 
 Airplane|84.6|83.3|85.1|90.8|90.8
 Baseball Diamond|62.2|83.6|82.6|86.9|87.2
@@ -105,14 +105,14 @@ If you find HRRSD dataset useful in your research, please consider citing:
 
 For more comparative experimental results, please refer to:
 ```
-@article{lu2019gated,
+@article{lu2020gated,
   title={Gated and Axis-Concentrated Localization Network for Remote Sensing Object Detection},
   author={Lu, Xiaoqiang and Zhang, Yuanlin and Yuan, Yuan and Feng, Yachuang},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
   volume={58},
   number={1},
   pages={179--192},
-  year={2019},
+  year={2020},
   publisher={IEEE}
 }
 ```
