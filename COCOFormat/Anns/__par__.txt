@@ -1,0 +1,4 @@
+tmp/hrrsd_tiny_100_3084.txt
+tmp/hrrsd_train_m-fld_4352_3084.txt
+tmp/hrrsd_val_m-fld_4352_3084.txt
+tmp/hrrsd_test_m-fld_13057_3084.txt
