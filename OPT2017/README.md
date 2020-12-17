@@ -1,4 +1,5 @@
-# ImageSets/Main
+
+## ImageSets/Main
 
 - cls: object category names.
 
@@ -11,26 +12,27 @@ For example, ```00053 -1``` in ```tennis court_val.txt``` means that 00053.jpg d
 
 3. Trainval is a gather of train and val.
 
-# JPEGImages
+## JPEGImages
 
 Contain images of ```*.jpg``` files. 
 
-# Annotations
+## Annotations
 
 Contain ground truth labels of ```*.xml``` files.
 
 Candidate boxes are organized with tree.
 
-# avr_std_detection_sets.py
+## avr_std_detection_sets.py
 
-This file is used to calculate mean value and standard deviation for images in object detection datasets. These two values will be needed for training better models. 
+This file is used to calculate `mean` value and `standard deviation` for dataset images. 
 
-Put this file under root of the datasets, where there is a 'JPEGImages' folder containing images.
+These two groups of values will be needed for training better models. 
 
-If you want to calculate the ```avr``` and ```std``` from 100 randomly selected images, run :
-```shell
-$ cd your_HRRSD_path/OPT2017
-$ python avr_std_detection_sets.py 100
+Usage :
+
+```bash
+python ./ImagesPath/ 500
 ```
 
-If you run ```$ python avr_std_detection_sets.py```, 500 images will be randomly selected.
+500 refers to number of the images used to calculate `mean` and ` standard deviation`.
+
